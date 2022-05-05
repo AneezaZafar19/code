@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism form</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+    <img src="bg.jpg" alt="loading" class="bg">
+    <div class="container">
+        <h3>
+            Welcome to IIT planning US tours 
+        </h3>
+         <p>
+             please enter your details in form and subit the form to confirm the trip !!
+         </p>
+       <form action="http://localhost/code/index.php" method="post">
+           <br>
+           <!-- <label for="Name">Name : </label> -->
+           <input type="text" name = "Name" id="Name" placeholder="Enter your Name">
+           <br>
+           <!-- <label for="age">Age : </label> -->
+           <input type="text" name = "Age" id="age" placeholder="Enter your Age">
+           <br>
+           <!-- <label for="gender">Gender : </label> -->
+           <input type="text" name = "Gender" id="gender" placeholder="Enter your Gender">
+           <br>
+           <!-- <label for="Email">Email : </label> -->
+           <input type="email" name = "Email" id="Email" id="Email" placeholder="Enter your Email">
+           <br>
+           <!-- <label for="phone">Phone : </label> -->
+           <input type="phone" name = "Phonenumber" id="phone" placeholder="Enter your Phone">
+           <br>
+           <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other detail here "></textarea>
+           <button class="btn "type="submit">Submit</button>
+           <!-- <button type="reset">Reset</button> -->
+       </form>
+         
+
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
